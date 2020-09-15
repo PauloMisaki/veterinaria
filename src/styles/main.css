@@ -1,0 +1,145 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none !important;
+}
+
+.fab {
+  display: flex !important;
+}
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* ESTILO VEM AQUI */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+.bg {
+  background: url('https://wallpapercave.com/wp/THsknvO.jpg');
+  height: 1920px;
+}
+
+.bg2 {
+  background-color: black;
+}
+
+.underline {
+  text-decoration-color: turquoise;
+  text-decoration: underline;
+}
+
+body {
+  background-color: white;
+}
+
+.fm {
+  background: url('http://via.placeholder.com/1600x570');
+}
+
+.fmini {
+  background: url('http://via.placeholder.com/233x233');
+}
+
+.objr {
+  position: absolute;
+  right: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 215px;
+  right: 180px;
+}
+
+.top-right2 {
+  position: absolute;
+  top: 340px;
+  right: 180px;
+}
+
+.top-right3 {
+  position: absolute;
+  top: 382px;
+  right: 180px;
+}
+
+.hour-left {
+  position: absolute;
+  top: 80px;
+  right: 930px;
+}
+
+.hour-left2 {
+  position: absolute;
+  top: 135px;
+  right: 930px;
+}
+
+.hour-left3 {
+  position: absolute;
+  top: 160px;
+  right: 930px;
+}
+
+.hour-left4 {
+  position: absolute;
+  top: 200px;
+  right: 930px;
+}
+
+.hour-left5 {
+  position: absolute;
+  top: 225px;
+  right: 930px;
+}
+
+.hour-center {
+  position: absolute;
+  top: 100px;
+  right: 705px;
+}
+
+.hour-right {
+  position: absolute;
+  top: 80px;
+  left: 950px;
+}
+
+.hour-right2 {
+  position: absolute;
+  top: 135px;
+  left: 950px;
+}
+
+.hour-right3 {
+  position: absolute;
+  top: 160px;
+  left: 950px;
+}
+
+.hour-right4 {
+  position: absolute;
+  top: 200px;
+  left: 950px;
+}
+
+.hour-right5 {
+  position: absolute;
+  top: 225px;
+  left: 950px;
+}
+
+.vetcontact {
+  text-shadow: 1px 1px 1px #000000;
+}
